@@ -18,38 +18,32 @@
     <div class="hidden lg:flex">
       <ul class="flex space-x-8 items-center">
 
-        <li><a href="index.html" class="font-medium text-base">Home</a></li>
+        <li><a href="./index.html" class="font-medium text-base">Home</a></li>
 
         <!-- Courses Dropdown (Desktop Hover) -->
         <li class="relative group">
-          <a href="courses.html" class="font-medium text-base flex items-center space-x-1">
+          <a href="./courses.html" class="font-medium text-base flex items-center space-x-1">
             <span>Courses</span>
             <i class="fas fa-chevron-down transition-transform duration-300 group-hover:rotate-180"></i>
           </a>
 
           <ul class="absolute bg-white text-black rounded shadow-lg w-44 hidden group-hover:block">
-            <li><a href="#" class="block px-4 py-2 hover:bg-black hover:text-white">Web Development</a></li>
-            <li><a href="#" class="block px-4 py-2 hover:bg-black hover:text-white">Game Development</a></li>
-            <li><a href="#" class="block px-4 py-2 hover:bg-black hover:text-white">Graphic Design</a></li>
-            <li><a href="#" class="block px-4 py-2 hover:bg-black hover:text-white">Digital Marketing</a></li>
+            <li><a href="./web.html" class="block px-4 py-2 hover:bg-black hover:text-white">Web Development</a></li>
+            <li><a href="./game.html" class="block px-4 py-2 hover:bg-black hover:text-white">Game Development</a></li>
+            <li><a href="./graphics.html" class="block px-4 py-2 hover:bg-black hover:text-white">Graphic Design</a></li>
+            <li><a href="./digital.html" class="block px-4 py-2 hover:bg-black hover:text-white">Digital Marketing</a></li>
           </ul>
         </li>
 
-        <li><a href="about.html" class="font-medium text-base">About Us</a></li>
-        <li><a href="contact.html" class="font-medium text-base">Contact Us</a></li>
+        <li><a href="./about.html" class="font-medium text-base">About Us</a></li>
+        <li><a href="./contact.html" class="font-medium text-base">Contact Us</a></li>
 
         <!-- Login Dropdown (Desktop Hover) -->
         <li class="relative group">
-          <a href="login.html" class="font-medium text-base flex items-center space-x-1">
+          <a href="./login.html" class="font-medium text-base flex items-center space-x-1">
             <span>Log In</span>
-            <i class="fas fa-chevron-down transition-transform duration-300 group-hover:rotate-180"></i>
+        
           </a>
-
-           <ul class="absolute bg-white text-black rounded shadow-lg w-32 hidden group-hover:block">
-            <li><a href="./login.html" class="block px-4 py-2 hover:bg-black hover:text-white">Admin</a></li>
-            <li><a href="./login.html" class="block px-4 py-2 hover:bg-black hover:text-white">Teacher</a></li>
-            <li><a href="./login.html" class="block px-4 py-2 hover:bg-black hover:text-white">Student</a></li>
-          </ul>
         </li>
 
       </ul>
@@ -89,13 +83,9 @@
       <li>
         <button onclick="toggleDropdown('login-mobile', 'login-icon-mobile')" class="flex justify-center items-center space-x-2 font-medium text-base w-full">
           <span>Log In</span>
-          <i id="login-icon-mobile" class="fas fa-chevron-down transition-transform duration-300"></i>
+       
         </button>
-        <ul id="login-mobile" class="ml-4 mt-2 space-y-2 hidden">
-          <li><a href="#" class="block text-base">Admin</a></li>
-          <li><a href="#" class="block text-base">Teacher</a></li>
-          <li><a href="#" class="block text-base">Student</a></li>
-        </ul>
+      
       </li>
     </ul>
   </div>
